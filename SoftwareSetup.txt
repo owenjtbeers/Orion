@@ -1,0 +1,71 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+How to Download and setup Python 2.7, Django, and PostgreSQL
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+NOTE::This is for Windows only
+
+
+++++++++++++++
+
+Python
+
+++++++++++++++
+
+
+1) Download and install Python 2.7.13 from https://www.python.org/downloads/
+
+       go to Control Panel>System and Securtiy>System>Advanced Settings>Environment Variables
+
+       in the System Variables window click on Path and select Edit
+
+       and a new line for the Python27 folder
+
+       exit those windows by clicking ok
+
+
+
+2) set up get-pip.py
+
+       Download get-pip.py from https://pip.pypa.io/en/stable/installing/#do-i-need-to-install-pip
+
+       run "python get-pip.py" in the console
+
+
+
+3) Add Python Scripts to the Environment
+
+       go to Control Panel>System and Securtiy>System>Advanced Settings>Environment Variables
+
+       in the System Variables window click on Path and select Edit
+
+       and a new line for the Python27\Scripts folder
+
+       exit those windows by clicking ok
+
+
+
++++++++++++++
+
+Django
++++++++++++++
+
+
+1) Run "pip install -r requirements.txt" in the console
+
+
+
+2) yep, that's it
+
+
++++++++++++++
+PostgrSQL
++++++++++++++
+
+1) Download PostgrSQL https://www.enterprisedb.com/downloads/postgres-postgresql-downloads#windows
+
+2) Run the installer
+
+3) Easy, but not as easy as Django
